@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "robust-chess-325307",
+  "private_key_id": "a64fd5e75cba5b33307f9cbdb035540bb4f98df7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCtq1Z/vo30OEQd\nI9eCc6zkbOk++Upo39WqFzSYP9F5cqg9ixQ3pcbKMAaoloYix2rnai54fDgL/vPS\n61SsNjc4VLbq3g/A4obsl1QYd+yzHY1ueNBihQCA/XWz6FnoqaqZVfIk+/oSJTg5\n0HEI480q/S/7t0XqJEty+d8TbivOKe5RJvruACrrQTK2qYIKkeY/32Qg4DU408n9\nPS+TuSlWpgJrY/Lqg2XuAQFA9OkOGNk2X/QHu189IuNzq0TGD0+qD3MrAGgv5Gy+\nYUFAi9XYsDzQeo8+VHFjHhF2DAIfdSAIrhFICgviR9WwnggMtmIDBhW/Bcgv8QYT\nbt+pmxPZAgMBAAECggEAA3sPIUFO9Amap+DbhWRPH0blh9sUODTgQef0KGcDCkWX\nhKBAd/sNGGlNANz/dDv98wRoSQboUqk59sy7pjXx9mGQRvXLaAjCPoSr7U+eAVsC\nxieKuabDw1IRJVlvT9/yqN8VmtMoCGwRi+sXEOAL8SQg7ZEXSCGRF41VgLyxCRE6\nn0VVlXYphF45RQHLO3nKmhcWjNNXO0oZ/N2yHmaEWlGg5HNu9DUURDbx/dZEKhJ4\n55H1bEh2d19Bker7dLdASun9Jr+ASgR5V+X6Rn1Vd7F3+0M/ba8Ctc9UBtxoVXWx\nrlUSihy0lfmb94qeq51G91hYYFzhWTxN7FGKBb5igQKBgQDURSPXJRVa39tf6eFq\njkJ9E36JSzSDi75KW9VSl7aPJ71xJgsTNlTGzRiErCbIxS8dr1pNg2GqD9bqsv8P\nvusnk0y1ag+ALV0KnPct1oe4bfglf2QCZ9ET1hHobzjNKfEG7idMwb/S3rXBibc8\ngI04pCItN198kqKNh0WoZTz0uQKBgQDRcnCzkA5izDQY6yxrC3V/nB2vSqGlRk6l\nvVaFKeHoRbcejqnGiM+EE+f1jwFiYxmup+OkU3P4cwb9GpvDRAHBWEoV/y58tttQ\nhFxNNUZKoNDoGydfJcBjuawCZlag3JBAd9VvOGFHmKFjvSbgKUJ7mCFCJJc/Nz88\n4mlFcIfIIQKBgGnQ5aL0i4a3nUZc8tAJhr+PHj8WzGDfIscyrE717j3C07859b9o\nEC7iQtywbM0c7vXfWibV3bPHHZ32CQwyYktiNJUjAAMnmgAWa2ngTdv0hgU7UgGY\n+zLmPhsehrRPuiV4RwMOeq+F8hk+q6dvdfbMa3Ua63DQMFRZILJndVGRAoGAfX+K\nAj3uMMrU6J15twZduEHuE4uvgd234F2sCwyGfWvQhrHLDtgJJ8XZtmyi0rY4vEuC\n/oK2uYcLB/u6m20TdCuX8Mg/raDPltZIjEbAwJTNuFYU6FExj0/AvotdmvOuR8LG\nE+d/eqv9AEtlkOmIGZCVVRGhwtIyxSORGneMFKECgYB0DInARubBd3sk4VDe2YDZ\nZgG/oHKtCx3zBgMfR4n3osBVYEG0pnkSGAOe3FlJEnsgwlhLImmN3EcY5JRnNGMG\n/wFuiKxamBZUJekZBZUR5jvqXbzU+0NwokshRVV6+WWJr762o5oPLWrH4KOnR8zB\nWwMogn8GSsUbsio3L64hyg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "googlesheets2whatsapp@robust-chess-325307.iam.gserviceaccount.com",
+  "client_id": "113230796187709896245",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlesheets2whatsapp%40robust-chess-325307.iam.gserviceaccount.com"
+}
