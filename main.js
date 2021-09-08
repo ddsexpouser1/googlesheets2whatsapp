@@ -56,7 +56,7 @@ async function gsrun(cl){
             var data = {
                 body:imageArray[0].toString(),
                 filename: "cover.jpg",
-                caption: "sample schedule @ 9.22",
+                caption: "sample schedule",
                 phone: r[1]
             }; 
             console.log("entered in schedule")     
