@@ -34,11 +34,11 @@ async function gsrun(cl){
 
     const opt = {
         spreadsheetId:'1UdcuYluJlAj-iXW4cTCC3r0uTYSIf7r5IOkikNj1758',
-          range:'Sheet1!A2:B2' 
+          range:'sample!A2:B5' 
     }
     const imageopt ={
         spreadsheetId:'1UdcuYluJlAj-iXW4cTCC3r0uTYSIf7r5IOkikNj1758',
-          range:'Sheet1!A8'
+          range:'sample!A8'
 
     }
 
@@ -50,16 +50,16 @@ async function gsrun(cl){
     let imageArray=imageurl.data.values;
 
     var cron=require('node-cron');
+    console.log(imageArray[0]);
 
-    let task=cron.schedule('0 22 9 * * *',()=>{
+    let task=cron.schedule('0 03 14 * * *',()=>{
         dataArray.map(function(r){
             var data = {
                 body:imageArray[0].toString(),
                 filename: "cover.jpg",
-                caption: "sample schedule",
+                caption: "image retrieved from @ 14.03",
                 phone: r[1]
             }; 
-            console.log("entered in schedule")     
             request({
                         url: url,
                         method: "POST",
