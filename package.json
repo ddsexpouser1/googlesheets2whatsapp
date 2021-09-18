@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "google-spreadsheet": "^3.1.15",
     "googleapis": "^39.2.0",
+    "moment-timezone": "^0.5.33",
     "node-cron": "^3.0.0",
     "request": "^2.88.2"
   }
