@@ -7,6 +7,7 @@ async function jobToDo(jobId,jobsData){
         }
 
     });
+    console.log("advertiser id",advertiserId);
     return advertiserId;
 }
 exports.jobToDo=jobToDo;

@@ -1,5 +1,5 @@
 
-async function updateLog(gsapi,spreadsheetId,range,log) {
+async function updateLog(gsapi,spreadsheetId,range,log,advertiserId) {
     
     await gsapi.spreadsheets.values.append({
         spreadsheetId,
@@ -9,7 +9,7 @@ async function updateLog(gsapi,spreadsheetId,range,log) {
         resource: {
             values: [
                 [
-                    new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }), log.id, log.message, log.sent
+                    new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }), log.id, log.message, log.sent, advertiserId
                 ]
             ]
         }

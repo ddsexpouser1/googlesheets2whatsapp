@@ -7,7 +7,7 @@ async function updateField(gsapi,recordNumber) {
         valueInputOption: 'USER_ENTERED',
         resource: {
             values:[
-                ["active"]
+                ["DONE"]
             ]
         }
     });
