@@ -5,13 +5,12 @@ const { filterSplit } = require("./filterSplit");
 const { readDatabase } = require("./readDatabase");
 const {scheduleTask}=require('./scheduleTask');
 const {jobToDo}=require('./jobToDo');
-const {updateJobLog}=require("./updateJobLog");
+
 
 async function gsrun(cl) {
 
     const gsapi = google.sheets({ version: 'v4', auth: cl }); 
     const spreadsheetId= '1UdcuYluJlAj-iXW4cTCC3r0uTYSIf7r5IOkikNj1758';
-
     
     cron.schedule('*/2 * * * *',async () => {
         
@@ -46,12 +45,11 @@ async function gsrun(cl) {
 
                 console.log("filtered mobile numbers",filteredRecords);
 
-                let {success,failure}=await scheduleTask(gsapi,spreadsheetId,filteredRecords,record[1],advertiserId,scheduleData,record);
-
-                await updateJobLog(gsapi,spreadsheetId,'joblog!A2:E2',advertiserId,filteredRecords.length,success,failure);
+                await scheduleTask(gsapi,spreadsheetId,filteredRecords,record[1],advertiserId,scheduleData,record);            
                                         
                 }
-               
+
+           
             });
            
     });
